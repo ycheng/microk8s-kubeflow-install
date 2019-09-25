@@ -17,4 +17,3 @@ export CONFIG="https://raw.githubusercontent.com/kubeflow/kubeflow/${VERSION}/bo
 kfctl init ${KFAPP} --config=${CONFIG} -V
 cd ${KFAPP}
 kfctl generate all -V
-kfctl apply all -V
